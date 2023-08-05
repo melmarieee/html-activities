@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+</head>
+<style>
+    .row {
+      display: flex;
+    }
+    .column {
+      flex: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    .body-container{
+        background-color: #EFF2F5;
+    }
+    h2{
+        font-family:  Helvetica, Arial, sans-serif;
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 32px;
+        padding-left: 30px;
+        width: 500px;}
+    .fbook-image-container {
+        text-align: center;
+    }
+    .facebook-image-container {
+        display: block;
+        padding: 300px;
+        width: 300px;
+        
+   }
+   .form-container{
+        background-color: red;
+        margin: 100px;
+   }
+   .pad-container{
+    padding: 300px;
+    width: 500px;
+    height: 300px;
+    }
+
+   
+    </style>
+<body class="body-container">
+    <div class="row">
+        <div class="column">
+            <div class="facebook-image-container" class="column-cc">
+                <img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook" padding: 112px 0 16px;>
+                <h2>Connect with friends and the world<br>
+                    around you on Facebook.</h2>
+            </div>
+        </div>
+        <div class="column">
+            <div class="form-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Email or Phone Number"><br><br>
+                    <input type="password" placeholder="Password"><br>
+                    <button type="button">Log in</button>
+ 
+                </form>
+            </div>
+        </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                padding: 10px;
+            }
+            .grid-container-calculator {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                padding: 10px;
+                text-align: center;
+            }
+            .grid-item-calculator {
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 10px;
+            }
+            
+            .grid-item {
+                border: 1px  rgba(0, 0, 0, 0.8);
+                padding: 20px;
+            }
+            .grid-item-calculator-left {
+                border-left: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 10px;
+            }
+            .grid-item-calculator-top{
+                border-top: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 10px;
+                color: white;
+            }
+
+            .grid-item-calculator-right{
+                border-right: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 10px;
+            }
+            .text-align-center{
+                text-align: center;
+            }
+            .color-orange {
+                background-color: orange;
+            }
+            .color-black{
+                background-color: black;
+            }
+            .color-gray{
+                background-color: gray;
+            }
+            .color-darkgray{
+                background-color: darkgrey;
+            }
+
+        </style>
+    </head>
+    <body> 
+        <div class="grid-container">
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item">
+                <h1 class="text-align-center">Calculator</h1>
+                <div class="grid-container-calculator">
+                    <div class="grid-item-calculator-left grid-item-calculator-top color-black"></div>
+                    <div class="grid-item-calculator-top color-black"></div>
+                    <div class="grid-item-calculator-top color-black"></div>
+                    <div class="grid-item-calculator-right grid-item-calculator-top color-black">24</div>
+                    <div class="grid-item-calculator color-gray">C</div>
+                    <div class="grid-item-calculator color-gray">+/-</div>
+                    <div class="grid-item-calculator color-gray">%</div>
+                    <div class="grid-item-calculator color-orange">➗</div>
+                    <div class="grid-item-calculator color-darkgray">7</div>
+                    <div class="grid-item-calculator color-darkgray">8</div>
+                    <div class="grid-item-calculator color-darkgray">9</div>
+                    <div class="grid-item-calculator color-orange">x</div>
+                    <div class="grid-item-calculator color-darkgray">4</div>
+                    <div class="grid-item-calculator color-darkgray">5</div>
+                    <div class="grid-item-calculator color-darkgray">6</div>
+                    <div class="grid-item-calculator color-orange">-</div>
+                    <div class="grid-item-calculator color-darkgray">1</div>
+                    <div class="grid-item-calculator color-darkgray">2</div>
+                    <div class="grid-item-calculator color-darkgray">3</div>
+                    <div class="grid-item-calculator color-orange">+</div>
+                    <div class="grid-item-calculator color-darkgray">0</div>
+                    <div class="grid-item-calculator color-darkgray"></div>
+                    <div class="grid-item-calculator color-darkgray">.</div>
+                    <div class="grid-item-calculator color-orange">=</div>
+                </div>
+            </div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
